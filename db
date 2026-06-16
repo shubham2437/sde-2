@@ -1,1 +1,54 @@
 
+Phase 1 — Fundamentals (1–2 days)
+Start with the mental model. Understand what a database is, the difference between a database and a DBMS, and the major families: relational (SQL) vs non-relational (NoSQL). Know when you'd reach for each. Learn the basic vocabulary: tables, rows, columns, schema, primary key, foreign key.
+Phase 2 — SQL (the heaviest interview area, 1–2 weeks)
+This is where most interviews live, so go deep. Work through:
+
+Basic queries: SELECT, WHERE, ORDER BY, LIMIT, DISTINCT
+Joins: INNER, LEFT, RIGHT, FULL, SELF, CROSS — be able to draw what each returns
+Aggregations: GROUP BY, HAVING, COUNT/SUM/AVG/MIN/MAX
+Subqueries (correlated vs non-correlated) and CTEs (WITH clause)
+Window functions: ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD, partitioning — these come up a lot in mid/senior interviews
+Set operations: UNION, UNION ALL, INTERSECT, EXCEPT
+DDL/DML/DCL/TCL categories and what commands fall under each
+
+Practice writing queries by hand without an IDE, since whiteboard/screen-share rounds expect that.
+Phase 3 — Database Design (3–4 days)
+
+ER diagrams and relationships (one-to-one, one-to-many, many-to-many)
+Normalization: 1NF, 2NF, 3NF, BCNF — know the purpose and be able to normalize a messy table
+Denormalization and why you'd intentionally do it
+Keys: primary, foreign, candidate, composite, surrogate vs natural
+
+Phase 4 — Indexing (2–3 days)
+
+What an index is and the tradeoff (faster reads, slower writes, more storage)
+Clustered vs non-clustered indexes
+B-tree vs hash indexes, composite indexes
+When indexes don't help, and how to read a query execution plan (EXPLAIN)
+
+Phase 5 — Transactions & Concurrency (3–4 days)
+
+ACID properties (be ready to explain each with an example)
+Isolation levels: Read Uncommitted, Read Committed, Repeatable Read, Serializable
+Concurrency problems: dirty reads, non-repeatable reads, phantom reads
+Locking (shared vs exclusive), deadlocks, optimistic vs pessimistic concurrency
+
+Phase 6 — NoSQL (2–3 days)
+
+The four types: key-value (Redis), document (MongoDB), column-family (Cassandra), graph (Neo4j)
+When to choose NoSQL over SQL
+BASE vs ACID
+
+Phase 7 — Scaling & Distributed Databases (3–4 days, more for senior roles)
+
+Replication (master-slave, master-master), sharding, partitioning
+CAP theorem and the PACELC extension
+Caching strategies, read replicas
+Eventual vs strong consistency
+
+Phase 8 — Practice & Mock Interviews (ongoing)
+
+Grind SQL problems on LeetCode (Database section), HackerRank, or StrataScratch
+Review common conceptual Q&A ("difference between DELETE/TRUNCATE/DROP," "what is a deadlock," etc.)
+Do timed mock queries
