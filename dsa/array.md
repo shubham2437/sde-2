@@ -125,7 +125,6 @@ for i in 1..n-1:
     curr = max(arr[i], curr + arr[i])
     best = max(best, curr)
 return best
-```
 
 ```curr = best = arr[0]
 start = 0          // start of the current running subarray
@@ -145,6 +144,7 @@ for i in 1..n-1:
         bestEnd = i
 
 return arr[bestStart .. bestEnd]```
+```
 
 To also return the **indices**, remember where `curr` reset (start) and where `best` updated (end).
 
