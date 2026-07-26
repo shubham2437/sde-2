@@ -127,6 +127,25 @@ for i in 1..n-1:
 return best
 ```
 
+```curr = best = arr[0]
+start = 0          // start of the current running subarray
+bestStart = 0      // start of the best subarray so far
+bestEnd = 0        // end of the best subarray so far
+
+for i in 1..n-1:
+    if curr + arr[i] < arr[i]:
+        curr = arr[i]       // drop the past, start fresh
+        start = i           // <-- new run begins here
+    else:
+        curr = curr + arr[i]  // extend the current run
+
+    if curr > best:
+        best = curr
+        bestStart = start   // lock in the winning window
+        bestEnd = i
+
+return arr[bestStart .. bestEnd]```
+
 To also return the **indices**, remember where `curr` reset (start) and where `best` updated (end).
 
 ### Pattern recognition
