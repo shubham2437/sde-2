@@ -1,0 +1,34 @@
+requirement_code,requirement_title,severity,mapped_controls,control_codes,control_owner,satisfied_by,evidence_ids,evidence_result,fresh_at_export,reviewer,evidence_source,status
+EUAIA-ART10-1A,Data governance and management practices,critical,Data Governance Policy Data Quality Score — Warning Training Data Inventory,DOC-DATA-GOV DOC-TRAINING-DATA MTR-DATA-QUAL,,none,,,N,,,gap
+EUAIA-ART10-1B,Examination for biases in datasets,critical,Bias Evaluation Report Demographic Bias Score — Block Demographic Bias Score — Warning Fairness Disparity — Block Fairness Disparity — Warning Periodic Bias Evaluation,DOC-BIAS-REPORT MTR-BIAS-BLOCK MTR-BIAS-WARN MTR-FAIR-BLOCK MTR-FAIR-WARN PROC-BIAS-REVIEW,,none,,,N,,,gap
+EUAIA-ART10-1C,Data relevance and representativeness,high,Data Governance Policy Data Quality Score — Warning Training Data Inventory,DOC-DATA-GOV DOC-TRAINING-DATA MTR-DATA-QUAL,,none,,,N,,,gap
+EUAIA-ART10-1D,Personal data minimisation in training,high,Data Governance Policy Privacy Impact Assessment (AI) Privacy Review for AI Processing,DOC-DATA-GOV DOC-PRIVACY PROC-PRIVACY-REVIEW,,none,,,N,,,gap
+EUAIA-ART11-1A,System description and intended purpose,critical,Instructions for Use Technical Documentation / Model Card,DOC-INSTRUCTIONS DOC-TECH-SPEC,,none,,,N,,,gap
+EUAIA-ART11-1B,Design and development specifications,high,Technical Documentation / Model Card,DOC-TECH-SPEC,,none,,,N,,,gap
+EUAIA-ART11-1C,Validation and testing results,high,Task Accuracy — Block Task Accuracy — Warning Technical Documentation / Model Card,DOC-TECH-SPEC MTR-ACC-BLOCK MTR-ACC-WARN,,none,,,N,,,gap
+EUAIA-ART12-1A,Automatic logging of events,high,Audit Logging Pipeline,TECH-LOG-PIPELINE,,none,,,N,,,gap
+EUAIA-ART12-1B,Log retention period,high,Log Retention Compliance — Block,MTR-RETENTION,,none,,,N,,,gap
+EUAIA-ART12-1C,Traceability of AI decisions,high,Audit Logging Pipeline,TECH-LOG-PIPELINE,,none,,,N,,,gap
+EUAIA-ART13-1A,Identity and provider information disclosure,high,Instructions for Use Technical Documentation / Model Card,DOC-INSTRUCTIONS DOC-TECH-SPEC,,none,,,N,,,gap
+EUAIA-ART13-1B,Capabilities and limitations disclosure,high,Instructions for Use Over-Refusal Rate — Warning Technical Documentation / Model Card,DOC-INSTRUCTIONS DOC-TECH-SPEC MTR-OVER-REFUSE,,none,,,N,,,gap
+EUAIA-ART13-1C,Human oversight measures description,high,Instructions for Use,DOC-INSTRUCTIONS,,none,,,N,,,gap
+EUAIA-ART14-1A,Human oversight by design,critical,Human Oversight Activity Logging Human Oversight Procedures Human-in-the-Loop Checkpoint,DOC-HUMAN-OVER PROC-OVERSIGHT-LOG TECH-HUMAN-LOOP,,none,,,N,,,gap
+EUAIA-ART14-1B,Ability to pause and override,critical,Human-in-the-Loop Checkpoint,TECH-HUMAN-LOOP,,none,,,N,,,gap
+EUAIA-ART14-1C,Competence of oversight persons,high,Human Oversight Procedures,DOC-HUMAN-OVER,,none,,,N,,,gap
+EUAIA-ART15-1A,Accuracy metrics documented,high,Output Confidence Calibration — Warning Refusal Rate — Warning Task Accuracy — Block Task Accuracy — Warning Toxicity Score — Block Toxicity Score — Warning,MTR-ACC-BLOCK MTR-ACC-WARN MTR-CONF-WARN MTR-REFUSE-WARN MTR-TOX-BLOCK MTR-TOX-WARN,,none,,,N,,,gap
+EUAIA-ART15-1B,Resilience to errors and faults,high,Adversarial Robustness — Block Adversarial Robustness — Warning Model Performance Drift — Warning,MTR-DRIFT-WARN MTR-ROBUST-BLOCK MTR-ROBUST-WARN,,none,,,N,,,gap
+EUAIA-ART15-1C,Cybersecurity protections,critical,AI Cybersecurity Assessment AI System Access Review Data Encryption at Rest and Transit Role-Based Access Control on AI APIs,DOC-SECURITY PROC-ACCESS-REVIEW TECH-ACCESS-CTRL TECH-CIPHER,,none,,,N,,,gap
+EUAIA-ART26-1A,Deployer use in accordance with instructions,high,Instructions for Use,DOC-INSTRUCTIONS,,none,,,N,,,gap
+EUAIA-ART26-1B,Deployer human oversight designation,critical,Human Oversight Procedures,DOC-HUMAN-OVER,,none,,,N,,,gap
+EUAIA-ART26-1C,Deployer monitoring obligations,high,Post-Market Monitoring,PROC-POSTMARKET,,none,,,N,,,gap
+EUAIA-ART27-1A,FRIA scope and process,high,Fundamental Rights Impact Assessment,DOC-FRIA,,none,,,N,,,gap
+EUAIA-ART27-1B,Consultation with affected groups,medium,Fundamental Rights Impact Assessment,DOC-FRIA,,none,,,N,,,gap
+EUAIA-ART43-1A,Internal conformity assessment procedure,critical,Declaration of Conformity,DOC-CONFORMITY,,none,,,N,,,gap
+EUAIA-ART43-1B,Declaration of conformity,critical,Declaration of Conformity,DOC-CONFORMITY,,none,,,N,,,gap
+EUAIA-ART49-1A,EU AI database registration,high,EU AI Database Registration Evidence,DOC-REGISTER,,none,,,N,,,gap
+EUAIA-ART72-1A,Serious incident detection and classification,critical,AI Incident Response Plan Serious Incident Reporting Procedure,DOC-INCIDENT-PLAN PROC-SERIOUS-INC,,none,,,N,,,gap
+EUAIA-ART72-1B,Timely reporting to authorities,critical,Serious Incident Reporting Procedure,PROC-SERIOUS-INC,,none,,,N,,,gap
+EUAIA-ART9-1A,Identify and analyse known and foreseeable risks,critical,AI Impact Assessment AI Risk Management Plan,DOC-IMPACT-ASSESS DOC-RISK-MGMT,,none,,,N,,,gap
+EUAIA-ART9-1B,Estimate and evaluate risks,critical,AI Impact Assessment AI Risk Management Plan Periodic AI Risk Review,DOC-IMPACT-ASSESS DOC-RISK-MGMT PROC-RISK-REVIEW,,none,,,N,,,gap
+EUAIA-ART9-1C,Evaluate residual risks after controls,high,AI Risk Management Plan Periodic AI Risk Review,DOC-RISK-MGMT PROC-RISK-REVIEW,,none,,,N,,,gap
+EUAIA-ART9-1D,Risk management documentation and records,high,AI Risk Management Plan,DOC-RISK-MGMT,,none,,,N,,,gap

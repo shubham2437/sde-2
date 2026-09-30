@@ -1,0 +1,44 @@
+{
+  "application_id": "ab647670-7269-4ed8-9449-dd0f8af8fec1",
+  "export_id": "16b9227a-10ac-4337-a1b9-b7bad582dfd4",
+  "files": {
+    "00_audit_report.pdf": "7fadbb9965df123a4cf4b210af7065f4e5ce1a81e0f17ad15e3d219b3f996938",
+    "README.txt": "45d9938aac52b355f3e5fd515ffa91cb72c8c6b268f394a8d64e278adb6344dd",
+    "controls_to_requirements.csv": "76f87026d0e03aebd6a1e86a6ad31b7ec6fc519c5fab1201ebd27b1e8b3d91f2",
+    "evidence": {},
+    "evidence/evidence_index.csv": "e4d338646b6bf43d964ccc5b993c4d55b845dd865b128cf31e52d8f028426683",
+    "evidence_inventory.csv": "e06142e0fdf18034e3b67b73362538e2eec57be0cea30028cedcb3db6a2fb17d",
+    "exclusions_register.csv": "321a1ed81d87619717bb5b43eb9ae0b61637acd2687f353bca3139b167c25ea1",
+    "framework_exemptions.csv": "aa6fa6dfd222e122367de21d0029fa4344d71cc989cd0f820019b8ccd2d43807",
+    "policies": [],
+    "policies/policies_index.csv": "c167591ae6e9536dcfb53d9461487e1cb8f12107ad820842c3da3dfd8bac665e",
+    "risk_register.csv": "5b540cf3f908548e3c010b1d6185f05da99959e5fbe9da7ea513588a9d4ce8a3",
+    "systems": {
+      "c9482ad3-c563-1fbb-977b-048bdd1be725": "f5cae1091566f5a46354df18d65fcf2acfbf3c0dced6eb9f42f6f0ebba1d45ef",
+      "fbb0824c-358a-073a-455f-b1cc0834fc25": "2b42a64aca6e91a5c44baf20824d229a1213991f62775d6ec4e7dd95a76ccfc2"
+    },
+    "traceability_matrix.csv": "e5f8b7c37915fe8aaeb30de956c0662c984272c4f0cab8e6b0bf032c90f9bd95"
+  },
+  "framework_code": "EU_AI_ACT",
+  "framework_id": "a1000001-0001-4001-8001-000000000001",
+  "generated_at": "2026-09-30T09:36:18.841971673Z",
+  "integrity": {
+    "algorithm": "sha256",
+    "bundle_sha256": "3951623a9ecd9e7f71d57e353b436162ff07f0c472b4feaa443dbbb225b30da5",
+    "files_hashed": 12,
+    "manifest_hash": "4b987d6671135d5d2cf4fafafce62c44d576cf68ea81e2cfa1db497f712b7723"
+  },
+  "manifest_hash": "4b987d6671135d5d2cf4fafafce62c44d576cf68ea81e2cfa1db497f712b7723",
+  "manifest_version": 1,
+  "organization_id": "e7d0dc65-67ce-48ed-94d8-8ffff96e5a37",
+  "project_id": "102348c4-fa8b-42de-961f-9f03a8f0348c",
+  "redaction_summary": {
+    "model": "scalar_allowlist_with_denylist_v1",
+    "policies_with_detail": 0,
+    "rows_with_detail": 0,
+    "total_omitted_count": 0,
+    "unique_omitted_keys": []
+  },
+  "row_count": 0,
+  "rows": []
+}
