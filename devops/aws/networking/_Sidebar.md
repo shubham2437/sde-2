@@ -1,9 +1,9 @@
 ### Networking Notes
 
-- [Home](Home)
-- [1. OSI Model: 7 Layers](OSI-Model)
-- [2. LAN](LAN)
-- [3. Switch](Switch)
-- [4. Router](Router)
-- [5. Internet](Internet)
-- [6. Full Journey](Full-Journey)
+- [Home](Home.md)
+- [1. OSI Model: 7 Layers](OSI-Model.md)
+- [2. LAN](LAN.md)
+- [3. Switch](Switch.md)
+- [4. Router](Router.md)
+- [5. Internet](Internet.md)
+- [6. Full Journey](Full-Journey.md)
