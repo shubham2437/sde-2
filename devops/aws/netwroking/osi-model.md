@@ -1,9 +1,10 @@
+[⬅ Back to Aa](Aa.md)
+
 # Networking Notes
 
-Click a topic to open it.
+> Tip: on GitHub, click the **☰ outline button** at the top right of this file to see all topics in a sidebar and jump to any one.
 
-<details>
-<summary><b>1. OSI Model: 7 Layers</b></summary>
+## 1. OSI Model: 7 Layers
 
 A way to remember them from bottom to top: **"Please Do Not Throw Sausage Pizza Away"**
 
@@ -17,10 +18,7 @@ A way to remember them from bottom to top: **"Please Do Not Throw Sausage Pizza 
 | 2 | Data Link | Delivery within one LAN | Frame | MAC address | Switch, bridge |
 | 1 | Physical | Sends raw bits over the medium | Bits | Cables, signals | Hub, repeater, cable |
 
-</details>
-
-<details>
-<summary><b>2. LAN (Local Area Network)</b></summary>
+## 2. LAN (Local Area Network)
 
 A LAN is a small network of devices in one place, like a home, office, school or lab. Your laptop, phone, printer and smart TV at home all sit on the same LAN.
 
@@ -29,42 +27,38 @@ A LAN is a small network of devices in one place, like a home, office, school or
 - It is privately owned: you or your company controls it.
 - Devices connect by cable (Ethernet) or wirelessly (Wi‑Fi, which is a wireless LAN, or WLAN).
 
-</details>
-
-<details>
-<summary><b>3. Switch</b></summary>
+## 3. Switch
 
 A switch connects many devices *inside the same LAN* and lets them talk to each other.
 
-**How it works:**
+### How a switch works
 
 - Every network card has a unique hardware address called a **MAC address** (for example, `3C:5A:B4:12:9F:01`).
 - The switch learns which MAC address is on which port and stores this in a **MAC address table**.
 - When data (a *frame*) arrives, the switch reads the destination MAC and sends it **only to the correct port**, not to everyone.
 - If it doesn't know the destination yet, it sends the frame to all ports (called *flooding*), then learns from the reply.
 
-**Key points:**
+### Switch key points
 
 - It works at **Layer 2 (Data Link layer)** of the OSI model.
 - It uses **MAC addresses**.
 - It is smarter than an old **hub**, which blindly sent every frame to every device.
 
-**Example:** PC‑A sends a file to the office printer. The switch sends it directly to the printer's port, and other PCs don't see it.
+### Switch example
 
-</details>
+PC‑A sends a file to the office printer. The switch sends it directly to the printer's port, and other PCs don't see it.
 
-<details>
-<summary><b>4. Router</b></summary>
+## 4. Router
 
 A router connects **different networks** together, for example your home LAN and the internet.
 
-**How it works:**
+### How a router works
 
 - It uses **IP addresses** (for example, `192.168.1.10` or `142.250.183.14`).
 - It keeps a **routing table**, a list of which path leads to which network.
 - When a *packet* arrives, the router checks the destination IP and forwards it toward the right network, choosing the best path.
 
-**Key points:**
+### Router key points
 
 - It works at **Layer 3 (Network layer)**.
 - It uses **IP addresses**.
@@ -74,14 +68,11 @@ A router connects **different networks** together, for example your home LAN and
 
 Your home "Wi‑Fi box" is usually a router, switch and Wi‑Fi access point combined in one device.
 
-</details>
-
-<details>
-<summary><b>5. Internet</b></summary>
+## 5. Internet
 
 The internet is a **huge network of networks**: millions of LANs and routers around the world connected together.
 
-**How it works:**
+### How the internet works
 
 - Your router connects to your **ISP** (Internet Service Provider, such as Jio, Airtel or BSNL).
 - ISPs connect to bigger ISPs, and those connect worldwide through **undersea fiber cables**.
@@ -90,10 +81,7 @@ The internet is a **huge network of networks**: millions of LANs and routers aro
   - **TCP** makes sure all packets arrive, in the right order.
 - **DNS** converts names like `google.com` into IP addresses, like a phonebook.
 
-</details>
-
-<details>
-<summary><b>6. Full Journey: What Happens When You Open google.com</b></summary>
+## 6. Full Journey: What Happens When You Open google.com
 
 1. Your laptop asks DNS for Google's IP address.
 2. The laptop sends a packet to the **switch**, which forwards it to the **router** (using MAC addresses).
@@ -101,4 +89,6 @@ The internet is a **huge network of networks**: millions of LANs and routers aro
 4. Many **routers across the internet** pass it hop by hop to Google's server.
 5. Google replies, and the reply comes back the same way: internet, then your router, then the switch, then your laptop.
 
-</details>
+---
+
+[⬅ Back to Aa](Aa.md)
